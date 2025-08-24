@@ -35,9 +35,10 @@ body {
 }
 
 // scrollbar customize
-/* width */
+/* width & height */
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 1px; /* 縦スクロールバーの幅 */
+  height: 1px; /* 横スクロールバーの高さ */
 }
 
 /* Track */
@@ -47,7 +48,7 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: $cMainHover;
+  background: $cMain;
 }
 
 // header section

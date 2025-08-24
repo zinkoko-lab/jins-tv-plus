@@ -20,9 +20,10 @@ body {
   width: 100vw;
 }
 
-/* width */
+/* width & height */
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 1px; /* 縦スクロールバーの幅 */
+  height: 1px; /* 横スクロールバーの高さ */
 }
 
 /* Track */
@@ -32,7 +33,7 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #c26767;
+  background: #ff2c1f;
 }
 
 header {
