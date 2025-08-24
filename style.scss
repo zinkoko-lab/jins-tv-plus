@@ -62,7 +62,7 @@ header {
   background: $cHeaderBG;
   display: flex;
   justify-content: space-between;
-  padding: 20px 100px;
+  padding: 20px 50px;
 
   & > a {
     &.logo {
@@ -158,7 +158,7 @@ section.cover-movie {
   }
 
   & .movie-title {
-    font-size: 2.5rem;
+    font-size: 5rem;
     text-transform: uppercase;
   }
 
@@ -423,9 +423,11 @@ section.tv-section {
 }
 
 // for responsive effect
-@media (max-width: 768px) {
-  .movie-title {
-    font-size: 2.5rem; /* 5rem はスマホだと大きすぎる */
+@media (max-width: 1366px) {
+  section.cover-movie {
+    & p.movie-title {
+      font-size: 2.5rem; /* 5rem はスマホだと大きすぎる */
+    }
   }
 
   .schedule {
@@ -445,7 +447,7 @@ section.tv-section {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1366px) {
   .cover-movie .about {
     width: 95%;
     left: 0; /* ずれ防止 */

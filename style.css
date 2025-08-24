@@ -46,7 +46,7 @@ header {
   background: black;
   display: flex;
   justify-content: space-between;
-  padding: 20px 100px;
+  padding: 20px 50px;
 }
 header > a.logo {
   display: inline-flex;
@@ -129,7 +129,7 @@ section.cover-movie .title-text {
   padding-left: 50px;
 }
 section.cover-movie .movie-title {
-  font-size: 2.5rem;
+  font-size: 5rem;
   text-transform: uppercase;
 }
 section.cover-movie .schedule {
@@ -346,8 +346,8 @@ section.tv-section .container .box img:hover {
   font-size: 1.2rem;
 }
 
-@media (max-width: 768px) {
-  .movie-title {
+@media (max-width: 1366px) {
+  section.cover-movie p.movie-title {
     font-size: 2.5rem; /* 5rem はスマホだと大きすぎる */
   }
   .schedule {
@@ -365,7 +365,7 @@ section.tv-section .container .box img:hover {
     flex-wrap: wrap; /* ナビゲーションがはみ出さないように */
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 1366px) {
   .cover-movie .about {
     width: 95%;
     left: 0; /* ずれ防止 */
