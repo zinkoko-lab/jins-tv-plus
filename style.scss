@@ -174,7 +174,7 @@ section.cover-movie {
     left: 70px;
     bottom: 70px;
 
-    & button {
+    & .trailer {
       display: inline-flex;
       align-items: center;
       gap: 8px;
@@ -404,8 +404,8 @@ section.tv-section {
 
       & a > img {
         background-color: $cMain;
-        width: 3rem;
-        margin: 7px;
+        width: 2rem;
+        margin: 0 10px;
         padding: 3px;
         border-radius: 50%;
         border: 2px solid $cBorder;
