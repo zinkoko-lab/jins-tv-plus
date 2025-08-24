@@ -20,6 +20,21 @@ body {
   width: 100vw;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #191c27;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c26767;
+}
+
 header {
   width: 100%;
   background: black;
