@@ -88,6 +88,7 @@ header > a.sign-in {
   border: none;
   background-color: #ff2c1f;
   padding: 0.7rem 1.4rem;
+  margin: auto;
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
