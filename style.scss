@@ -7,6 +7,7 @@ $cBG: #191c27;
 $cHeaderBG: black;
 $cTextBox: rgb(41, 35, 35);
 $cBorder: rgba(0, 0, 0, 0.451);
+$cPlayIcon: #ff2a1f76;
 
 * {
   margin: 0;
@@ -208,7 +209,7 @@ section.cover-movie {
     transform: translate(-50%, -50%);
     font-size: 7rem;
     transition: all 0.5s;
-    color: $cMain;
+    color: $cPlayIcon;
 
     &:hover {
       color: $cMainHover;

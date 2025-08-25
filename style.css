@@ -171,7 +171,7 @@ section.cover-movie .play-icon .bx-play-circle {
   transform: translate(-50%, -50%);
   font-size: 7rem;
   transition: all 0.5s;
-  color: #ff2c1f;
+  color: rgba(255, 42, 31, 0.462745098);
 }
 section.cover-movie .play-icon .bx-play-circle:hover {
   color: #c26767;
