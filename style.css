@@ -95,7 +95,8 @@ header > a.sign-in {
   transition: all 0.5s;
 }
 header > a.sign-in:hover {
-  background-color: #c26767;
+  background-color: white;
+  color: #ff2c1f;
 }
 
 div.cover-movie-parent {
@@ -136,18 +137,12 @@ section.cover-movie .movie-title {
 section.cover-movie .schedule {
   font-size: 1rem;
 }
-section.cover-movie .buttons {
-  display: flex;
-  flex-direction: column;
+section.cover-movie .button {
   position: absolute;
   left: 70px;
   bottom: 70px;
 }
-section.cover-movie .buttons .trailer {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  width: auto;
+section.cover-movie .button .trailer {
   background-color: #ff2c1f;
   border: none;
   padding: 0.7rem 1.4rem;
@@ -157,8 +152,9 @@ section.cover-movie .buttons .trailer {
   cursor: pointer;
   transition: all 0.5s;
 }
-section.cover-movie .buttons .trailer:hover {
-  background-color: #c26767;
+section.cover-movie .button .trailer:hover {
+  background-color: white;
+  color: #ff2c1f;
 }
 section.cover-movie .about {
   position: relative; /* ← absoluteをやめる */
@@ -308,7 +304,8 @@ section.tv-section .container .box img:hover {
   transition: all 0.5s;
 }
 .plan-section-parent .plan form > button:hover {
-  background-color: #c26767;
+  background-color: white;
+  color: #ff2c1f;
 }
 
 .footer-section-parent .footer {

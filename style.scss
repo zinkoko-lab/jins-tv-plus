@@ -121,7 +121,9 @@ header {
     transition: all 0.5s;
 
     &:hover {
-      background-color: $cMainHover;
+      // background-color: $cMainHover;
+      background-color: $cText;
+      color: $cMain;
     }
   }
 }
@@ -167,18 +169,12 @@ section.cover-movie {
     font-size: 1rem;
   }
 
-  & .buttons {
-    display: flex;
-    flex-direction: column;
+  & .button {
     position: absolute;
     left: 70px;
     bottom: 70px;
 
     & .trailer {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      width: auto;
       background-color: $cMain;
       border: none;
       padding: 0.7rem 1.4rem;
@@ -190,7 +186,9 @@ section.cover-movie {
       transition: all 0.5s;
 
       &:hover {
-        background-color: $cMainHover;
+        // background-color: $cMainHover;
+        background-color: $cText;
+        color: $cMain;
       }
     }
   }
@@ -371,7 +369,9 @@ section.tv-section {
       transition: all 0.5s;
 
       &:hover {
-        background-color: $cMainHover;
+        // background-color: $cMainHover;
+        background-color: $cText;
+        color: $cMain;
       }
     }
   }
