@@ -143,6 +143,7 @@ section.cover-movie .button {
   bottom: 70px;
 }
 section.cover-movie .button .trailer {
+  display: flex;
   background-color: #ff2c1f;
   border: none;
   padding: 0.7rem 1.4rem;

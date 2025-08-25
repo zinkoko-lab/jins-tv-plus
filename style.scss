@@ -176,6 +176,7 @@ section.cover-movie {
     bottom: 70px;
 
     & .trailer {
+      display: flex;
       background-color: $cMain;
       border: none;
       padding: 0.7rem 1.4rem;
