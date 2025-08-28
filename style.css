@@ -95,8 +95,7 @@ header > a.sign-in {
   transition: all 0.5s;
 }
 header > a.sign-in:hover {
-  background-color: white;
-  color: #ff2c1f;
+  background-color: #c26767;
 }
 
 div.cover-movie-parent {
@@ -154,8 +153,7 @@ section.cover-movie .button .trailer {
   transition: all 0.5s;
 }
 section.cover-movie .button .trailer:hover {
-  background-color: white;
-  color: #ff2c1f;
+  background-color: #c26767;
 }
 section.cover-movie .about {
   position: relative; /* ← absoluteをやめる */

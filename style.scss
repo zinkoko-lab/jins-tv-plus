@@ -122,9 +122,9 @@ header {
     transition: all 0.5s;
 
     &:hover {
-      // background-color: $cMainHover;
-      background-color: $cText;
-      color: $cMain;
+      background-color: $cMainHover;
+      // background-color: $cText;
+      // color: $cMain;
     }
   }
 }
@@ -188,9 +188,9 @@ section.cover-movie {
       transition: all 0.5s;
 
       &:hover {
-        // background-color: $cMainHover;
-        background-color: $cText;
-        color: $cMain;
+        background-color: $cMainHover;
+        // background-color: $cText;
+        // color: $cMain;
       }
     }
   }
