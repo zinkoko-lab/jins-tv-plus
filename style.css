@@ -303,8 +303,7 @@ section.tv-section .container .box img:hover {
   transition: all 0.5s;
 }
 .plan-section-parent .plan form > button:hover {
-  background-color: white;
-  color: #ff2c1f;
+  background-color: #c26767;
 }
 
 .footer-section-parent .footer {
