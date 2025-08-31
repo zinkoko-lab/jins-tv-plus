@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 $cMain: #ff2c1f;
-$cMainHover: #c26767;
+// $cMainHover: #c26767;
+$cMainHover: #a72f2f;
 $cText: white;
 $cBG: #191c27;
 $cHeaderBG: black;
@@ -125,6 +126,7 @@ header {
       background-color: $cMainHover;
       // background-color: $cText;
       // color: $cMain;
+      // box-shadow: 3px 3px 10px $cText;
     }
   }
 }

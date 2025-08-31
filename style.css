@@ -95,7 +95,7 @@ header > a.sign-in {
   transition: all 0.5s;
 }
 header > a.sign-in:hover {
-  background-color: #c26767;
+  background-color: #a72f2f;
 }
 
 div.cover-movie-parent {
@@ -153,7 +153,7 @@ section.cover-movie .button .trailer {
   transition: all 0.5s;
 }
 section.cover-movie .button .trailer:hover {
-  background-color: #c26767;
+  background-color: #a72f2f;
 }
 section.cover-movie .about {
   position: relative; /* ← absoluteをやめる */
@@ -173,7 +173,7 @@ section.cover-movie .play-icon .bx-play-circle {
   color: rgba(255, 42, 31, 0.462745098);
 }
 section.cover-movie .play-icon .bx-play-circle:hover {
-  color: #c26767;
+  color: #a72f2f;
   filter: brightness(1.2);
 }
 section.cover-movie .volume-icons {
@@ -303,7 +303,7 @@ section.tv-section .container .box img:hover {
   transition: all 0.5s;
 }
 .plan-section-parent .plan form > button:hover {
-  background-color: #c26767;
+  background-color: #a72f2f;
 }
 
 .footer-section-parent .footer {
@@ -336,7 +336,7 @@ section.tv-section .container .box img:hover {
   transition: all 0.5s;
 }
 .footer-section-parent .footer .footer-2 a > img:hover {
-  background-color: #c26767;
+  background-color: #a72f2f;
 }
 .footer-section-parent .footer .footer-2 .trademark {
   font-size: 1.2rem;
